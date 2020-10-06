@@ -1,0 +1,167 @@
+body {
+  font-family: "Open sans", sans-serif!important;
+}
+
+.bg-primary {
+  background-color: #a597e7! important;
+}
+
+.bg-secondary {
+  background-color: #6c757d! important;
+}
+
+.bg-success {
+  background-color: #b5d56a! important;
+}
+
+.bg-info {
+  background-color: #84bed6! important;
+}
+
+.bg-warning {
+  background-color: #f0c24b! important;
+}
+
+.bg-danger {
+  background-color: #ea7066! important;
+}
+
+.bg-light {
+  background-color: #f8f9fa! important;
+}
+
+.bg-dark {
+  background-color: #343a40! important;
+}
+
+.bg-white {
+  background-color: #fff! important;
+}
+
+.bg-transparent {
+  background-color: transparent! important;
+}
+
+.text-primary {
+  color: #a597e7! important;
+}
+
+.text-secondary {
+  color: #6c757d! important;
+}
+
+.text-success {
+  color: #b5d56a! important;
+}
+
+.text-info {
+  color: #84bed6! important;
+}
+
+.text-warning {
+  color: #f0c24b! important;
+}
+
+.text-danger {
+  color: #ea7066! important;
+}
+
+.text-light {
+  background-color: #f8f9fa! important;
+}
+
+.text-dark {
+  color: #343a40! important;
+}
+
+.text-white {
+  color: #fff! important;
+}
+
+.text-transparent {
+  color: transparent! important;
+}
+
+.btn-primary {
+  background-color: #a597e7! important;
+}
+
+.btn-secondary {
+  background-color: #6c757d! important;
+}
+
+.btn-success {
+  background-color: #b5d56a! important;
+}
+
+.btn-info {
+  background-color: #84bed6! important;
+}
+
+.btn-warning {
+  background-color: #f0c24b! important;
+}
+
+.btn-danger {
+  background-color: #ea7066! important;
+}
+
+.btn-light {
+  background-color: #f8f9fa! important;
+}
+
+.btn-dark {
+  background-color: #343a40! important;
+}
+
+.btn-white {
+  background-color: #fff! important;
+}
+
+.btn-transparent {
+  background-color: transparent! important;
+}
+
+.border-primary {
+  border-color: #a597e7! important;
+}
+
+.border-secondary {
+  border-color: #6c757d! important;
+}
+
+.border-success {
+  border-color: #b5d56a! important;
+}
+
+.border-info {
+  border-color: #84bed6! important;
+}
+
+.border-warning {
+  border-color: #f0c24b! important;
+}
+
+.border-danger {
+  border-color: #ea7066! important;
+}
+
+.border-light {
+  border-color: #f8f9fa! important;
+}
+
+.border-dark {
+  border-color: #343a40! important;
+}
+
+.border-white {
+  border-color: #fff! important;
+}
+
+.border-transparent {
+  border-color: transparent! important;
+}
+
+.shadow {
+  box-shadow: 0.15rem 0.15rem 0 rgba(0, 0, 0, 0.1)!important;
+}
