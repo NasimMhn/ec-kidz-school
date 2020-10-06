@@ -67,3 +67,17 @@ h3 {
 .image-gallery * img {
   width: 100%;
 }
+
+.teacher-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 1rem;
+}
+
+.teacher-card img {
+  border-radius: 50%;
+  width: 90%;
+}
