@@ -1,4 +1,4 @@
-.btn-cozy {
+.btn-cozy, .bg-cozy {
   background-color: #ea77ad !important
 }
 
@@ -37,23 +37,4 @@
 .nav-item {
   width: 4.5rem;
   text-align: center;
-}
-
-.border-bar {
-  height: 0.2rem;
-  background: linear-gradient(0.25turn, #84bed6, #b5d56a, #ea77ad, #f0c24b, #84bed6, #b5d56a, #ea77ad, #f0c24b);
-}
-
-.hero {
-  display: flex;
-  justify-content: center;
-  align-content: center;
-  flex-direction: column;
-  text-align: center;
-  height: 400px;
-  background-image: url("/images/slider/img-1.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  color: white;
 }
