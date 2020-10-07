@@ -38,3 +38,25 @@
   width: 4.5rem;
   text-align: center;
 }
+
+@media (max-width: 768px) {
+  .no-burger {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .nav-item {
+    width: 100%;
+    text-align: right;
+    display: flex;
+    flex-direction: row-reverse;
+    align-content: center;
+    align-items: center;
+  }
+  .nav-item button {
+    margin-right: 0.25rem;
+    margin-left: 1rem;
+  }
+  .nav-item div {}
+}

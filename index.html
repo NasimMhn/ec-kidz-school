@@ -20,12 +20,23 @@
     <div class="row">
       <div class="col">
 
-        <nav class="navbar navbar-expand-lg navbar-light bg-white">
+
+        <nav class="navbar navbar-expand-md navbar-light bg-white">
 
           <a class="navbar-brand" href="#"><img src="images/logo-school.png" style="height: 30px" /></a>
+          <div class="navbar-toggler border-transparent pr-0">
+            <button class="btn btn-cozy">
+              <i class="fas fa-shopping-cart"></i>
+            </button>
+            <button class="btn btn-info text-white" type="button" data-toggle="collapse" data-target="#navbarToggler"
+              aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+              <i class="fas fa-bars"></i>
+            </button>
 
-          <div class="collapse navbar-collapse" id="navbarTogglerDemo03" data-parent="#navbarTogglerDemo03">
-            <ul class="navbar-nav ml-auto mr-auto mt-2 mt-lg-0">
+          </div>
+
+          <div class="collapse navbar-collapse" id="navbarToggler" data-parent="#navbarToggler">
+            <ul class="navbar-nav m-auto mt-2 mt-md-0">
               <li class="nav-item m-1">
                 <button class="btn btn-info btn-circle">
                   <i class="fas fa-home"></i>
@@ -55,21 +66,12 @@
             </ul>
           </div>
 
-          <ul class="navbar-nav my-2 my-lg-0">
-            <li class="nav-item">
-              <button class="btn btn-cozy">
-                <i class="fas fa-shopping-cart"></i>
-              </button>
-            </li>
-          </ul>
-
-          <button class="navbar-toggler btn btn-info text-white" type="button" data-toggle="collapse"
-            data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false"
-            aria-label="Toggle navigation">
-            <i class="fas fa-bars"></i>
+          <button class="btn btn-cozy no-burger">
+            <i class="fas fa-shopping-cart"></i>
           </button>
 
         </nav>
+
       </div>
     </div>
   </div>
