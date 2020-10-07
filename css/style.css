@@ -10,6 +10,11 @@ h3 {
   font-size: 1.3rem;
 }
 
+h4 {
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
 .border-bar {
   height: 0.2rem;
   background: linear-gradient(0.25turn, #84bed6, #b5d56a, #ea77ad, #f0c24b, #84bed6, #b5d56a, #ea77ad, #f0c24b);
@@ -80,4 +85,122 @@ h3 {
 .teacher-card img {
   border-radius: 50%;
   width: 90%;
+}
+
+.class-card-wrapper {
+  width: 440px!important;
+  height: 250px;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  font-size: 0.8rem;
+}
+
+.class-card-wrapper:first-child {
+  width: 60%;
+}
+
+.class-card-wrapper:last-child {
+  width: auto;
+}
+
+.class-card-wrapper img {
+  width: 55%;
+}
+
+.classes-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.calendar {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  text-align: center;
+  padding: 5px 10px;
+  border-radius: 0.5rem;
+  font-size: 0.75rem;
+  font-weight: 600;
+  line-height: 1rem;
+}
+
+.card-body div {
+  padding: 0.15rem 0rem;
+}
+
+.fun-facts {
+  height: 350px;
+  background: url("/images/fun-facts/fun-facts-bg-img.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.fun-fact-circle {
+  position: relative;
+  width: 100%;
+  padding-top: 100%;
+  border-radius: 50%;
+  border: 4px solid white;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.fun-fact-circle span {
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.fun-fact-circle~span {
+  padding: 0.5rem;
+  font-size: 0.5rem;
+  white-space: nowrap;
+}
+
+.contact-form .form-group {
+  position: relative;
+}
+
+.contact-form * i {
+  position: absolute;
+  right: 0.75rem;
+  top: 0.5rem;
+}
+
+@media (min-width: 935px) {
+  .fun-fact-circle {
+    width: 130px;
+    height: 130px;
+    padding-top: unset;
+    flex-direction: column;
+    align-content: center;
+    margin: auto;
+    font-size: 2rem;
+  }
+  .fun-fact-circle span {
+    position: unset;
+    top: unset;
+    -ms-transform: unset;
+    transform: unset;
+  }
+  .fun-fact-circle~span {
+    padding: 0.5rem;
+    font-size: 0.8rem;
+    white-space: nowrap;
+  }
+}
+
+@media (max-width: 576px) {
+  .teacher-card img {
+    width: 30%;
+  }
 }
