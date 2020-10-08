@@ -87,8 +87,8 @@ h4 {
 }
 
 .class-card-wrapper {
-  width: 440px!important;
-  height: 250px;
+  width: 540px!important;
+  height: 285px;
   position: relative;
   display: flex;
   flex-direction: row;
@@ -112,7 +112,7 @@ h4 {
   flex-direction: row;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 10px;
+  gap: 1rem;
 }
 
 .calendar {
@@ -125,6 +125,15 @@ h4 {
   font-size: 0.75rem;
   font-weight: 600;
   line-height: 1rem;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+}
+
+.learn-more-btn {
+  margin-top: auto;
 }
 
 .card-body div {

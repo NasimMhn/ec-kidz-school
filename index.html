@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
     integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/styles.css">
   <link rel="stylesheet" href="css/nav-bootstrap.css">
   <link rel="stylesheet" href="css/boostrap-overrides.css">
   <script src="https://kit.fontawesome.com/d5f44549e0.js" crossorigin="anonymous"></script>
@@ -25,49 +25,48 @@
 
           <a class="navbar-brand" href="#"><img src="images/logo-school.png" style="height: 30px" /></a>
           <div class="navbar-toggler border-transparent pr-0">
-            <button class="btn btn-cozy">
-              <i class="fas fa-shopping-cart"></i>
+            <button class="btn btn-cozy" id="cart-burger">
+              <i class="fas fa-shopping-cart text-white"></i>
             </button>
             <button class="btn btn-info text-white" type="button" data-toggle="collapse" data-target="#navbarToggler"
               aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
               <i class="fas fa-bars"></i>
             </button>
-
           </div>
 
           <div class="collapse navbar-collapse" id="navbarToggler" data-parent="#navbarToggler">
             <ul class="navbar-nav m-auto mt-2 mt-md-0">
               <li class="nav-item m-1">
                 <button class="btn btn-info btn-circle">
-                  <i class="fas fa-home"></i>
+                  <i class="fas fa-home text-white"></i>
                 </button>
                 <div class="text-info">Home</div>
               </li>
               <li class="nav-item m-1">
                 <button class="btn btn-cozy btn-circle">
-                  <i class="fas fa-store"></i>
+                  <i class="fas fa-store text-white"></i>
                 </button>
                 <div class="text-cozy">Store</div>
               </li>
 
               <li class="nav-item m-1">
                 <button class="btn btn-success btn-circle">
-                  <i class="fas fa-graduation-cap"></i>
+                  <i class="fas fa-graduation-cap text-white"></i>
                 </button>
                 <div class="text-success">Courses</div>
               </li>
 
               <li class="nav-item m-1">
                 <button class="btn btn-warning btn-circle">
-                  <i class="fas fa-blog"></i>
+                  <i class="fas fa-blog text-white"></i>
                 </button>
                 <div class="text-warning">Blog</div>
               </li>
             </ul>
           </div>
 
-          <button class="btn btn-cozy no-burger">
-            <i class="fas fa-shopping-cart"></i>
+          <button class="btn btn-cozy no-burger" id="cart">
+            <i class="fas fa-shopping-cart text-white"></i>
           </button>
 
         </nav>
@@ -249,25 +248,9 @@
           <h2 class="text-white text-center">Our Teachers</h2>
         </div>
       </div>
-      <div class="row">
-        <div class="col-sm-3 mb-2 teacher-card">
-          <img src="images/avatars/avatar-1.jpg" />
-          <span> Mrs. Smith </span>
-        </div>
-        <div class="col-sm-3 mb-2 teacher-card">
-          <img src="images/avatars/avatar-2.jpg" />
-          <span> Mrs. Ava </span>
-        </div>
-        <div class="col-sm-3 mb-2 teacher-card">
-          <img src="images/avatars/avatar-3.jpg" />
-          <span> Mr. Smythe </span>
-        </div>
-        <div class="col-sm-3 mb-2 teacher-card">
-          <img src="images/avatars/avatar-4.jpg" />
-          <span> Ms. Sanchez </span>
-        </div>
-      </div>
+      <div class="row" id="teachers"></div>
     </div>
+  </div>
   </div>
 
 
@@ -279,73 +262,7 @@
     </div>
 
     <div class="row text-white">
-      <div class="col classes-wrapper">
-        <div class="card class-card-wrapper">
-          <img class="card-img-top" src="images/events/events-img1.jpg" alt="Class 1">
-          <div class="calendar bg-info">
-            <div> 10 </div>
-            <div> June</div>
-          </div>
-          <div class="card-body bg-info">
-            <h4> Lorem ipsum dolor </h4>
-            <div>
-              <div><i class="fas fa-calendar"></i> Age 2 to 4 Years</div>
-              <div><i class="fas fa-clock"></i> 09:00AM-11:00AM</div>
-            </div>
-            <p class="card-text"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum eos numquam quisquam.</p>
-            <button class="btn btn-warning w-100"> LEARN MORE </button>
-          </div>
-        </div>
-
-        <div class="card class-card-wrapper">
-          <img class="card-img-top" src="images/events/events-img2.jpg" alt="Class 2">
-          <div class="calendar bg-cozy">
-            <div> 10 </div>
-            <div> June</div>
-          </div>
-          <div class="card-body bg-cozy">
-            <h4> Lorem ipsum dolor </h4>
-            <div>
-              <div><i class="fas fa-calendar"></i> Age 2 to 4 Years</div>
-              <div><i class="fas fa-clock"></i> 09:00AM-11:00AM</div>
-            </div>
-            <p class="card-text"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum eos numquam quisquam.</p>
-            <button class="btn btn-warning w-100"> LEARN MORE </button>
-          </div>
-        </div>
-        <div class="card class-card-wrapper">
-          <img class="card-img-top" src="images/events/events-img3.jpg" alt="Class 3">
-          <div class="calendar bg-success">
-            <div> 10 </div>
-            <div> June</div>
-          </div>
-          <div class="card-body bg-success">
-            <h4> Lorem ipsum dolor </h4>
-            <div>
-              <div><i class="fas fa-calendar"></i> Age 2 to 4 Years</div>
-              <div><i class="fas fa-clock"></i> 09:00AM-11:00AM</div>
-            </div>
-            <p class="card-text"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum eos numquam quisquam.</p>
-            <button class="btn btn-warning w-100"> LEARN MORE </button>
-          </div>
-        </div>
-        <div class="card class-card-wrapper">
-          <img class="card-img-top" src="images/events/events-img4.jpg" alt="Class 3">
-          <div class="calendar bg-primary">
-            <div> 10 </div>
-            <div> June</div>
-          </div>
-          <div class="card-body bg-primary">
-            <h4> Lorem ipsum dolor </h4>
-            <div>
-              <div><i class="fas fa-calendar"></i> Age 2 to 4 Years</div>
-              <div><i class="fas fa-clock"></i> 09:00AM-11:00AM</div>
-            </div>
-            <p class="card-text"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum eos numquam quisquam.</p>
-            <button class="btn btn-warning w-100"> LEARN MORE </button>
-          </div>
-        </div>
-      </div>
+      <div class="col classes-wrapper" id="classes"> </div>
     </div>
   </div>
 
@@ -426,6 +343,9 @@
 
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <script src="js/api.js"></script>
+
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
     integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
     crossorigin="anonymous"></script>
